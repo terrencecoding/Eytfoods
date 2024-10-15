@@ -1,0 +1,638 @@
+body {
+  overflow-x: hidden;
+}
+
+.custom-navbar {
+  color: black;
+}
+
+.link {
+  color: #2f2105;
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero-container {
+  position: relative;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  position: relative;
+  width: 489px;
+}
+
+h1.hero-title {
+  font-size: 48px;
+  font-weight: 600px;
+}
+h1.hero-title span {
+  color: #ff902b;
+}
+
+.hero-description {
+  color: #7e7d7a;
+  width: 350px;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.hero-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40%;
+  top: 15px;
+}
+
+div.hero-button Button {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2f2105;
+  border-radius: 33px;
+  width: 170px;
+  height: 46px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600px;
+}
+
+div.hero-button Button > p {
+  color: #ffffff;
+}
+
+div.cart-icon {
+  position: relative;
+  top: 5px;
+  background-color: #ff902b;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+div.cart-icon img {
+  width: 12px;
+  height: 12px;
+}
+
+div.hero-button p {
+  position: relative;
+  top: 8px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #f4ae26;
+}
+
+div.hero-button .hero-menu {
+  position: relative;
+  left: 30px;
+}
+
+.img-hero {
+  width: 526px;
+}
+
+.page-bg {
+  background-image: url("/img/bg_img_hero_2.png"), url("/img/bg_img_hero_2.png"),
+    url("/img/Rectangle_9.png");
+  background-position: top -34px right -54px, top 541px left 140px, 0 0;
+  background-size: 569px 394px, 569px 394px, auto 200%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+
+  height: 979px;
+}
+
+/* Popular Production Section */
+.popular-section {
+  padding-top: 100px;
+  position: relative;
+}
+
+h3.popular-title {
+  font-weight: bold;
+}
+
+/* Container that holds both the bg img and the three coffee img */
+.popular-container {
+  position: relative;
+}
+
+/* Background image */
+.popular-bg {
+  left: 70%;
+  margin-left: -50vw;
+  max-width: 1400px;
+  position: relative;
+  width: 1400px;
+  margin-top: 137px;
+}
+
+/* Items container */
+.popular-img-container {
+  margin-top: 32px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item-container {
+  box-shadow: 10px 10px 20px #555555b7;
+  position: relative;
+  background-color: #ffffff8e;
+  border-radius: 12px;
+  width: 355px;
+  height: 385px;
+}
+
+.inner-rectangle {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 343px;
+  height: 373px;
+  margin: 6px;
+}
+
+.product-item-container img {
+  position: relative;
+  margin: 30px 24px 129px 18px;
+  width: 307px;
+  height: 226px;
+}
+
+.item-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 273px;
+  left: 32px;
+  position: absolute;
+  /* outline: 2px solid blue; */
+  width: 281px;
+  height: 85px;
+}
+
+div > img.popular-coffee-1 {
+}
+
+div > img .popular-coffee-3 {
+}
+
+div.info-container {
+  position: relative;
+  width: 164px;
+}
+
+div.info-container h4 {
+  width: 164px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+div.temp {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.temp p {
+  margin-top: 10px;
+  width: 64px;
+  height: 32px;
+  border: 2px solid #ffd28f;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+div p.hot-active {
+  border: 2px solid #ff902b;
+}
+
+div.left-info {
+  position: relative;
+}
+
+div.left-info p.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+div.cart-button {
+  position: relative;
+  top: -15px;
+  background-color: #ff902b;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+}
+
+div.cart-button img {
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 18px;
+  height: 17px;
+}
+
+.coffee-bg {
+  background-image: url("/img/bg_img_hero.png");
+  background-size: cover;
+  width: 599px;
+  height: 394px;
+}
+
+div.service-container {
+  position: relative;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  height: 370px;
+}
+
+div.services {
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.service-selection {
+  position: relative;
+  width: 370px;
+  height: 290px;
+}
+
+div img.service-icon {
+  position: relative;
+
+  left: 105px;
+  top: 16px;
+  width: 159px;
+  height: 159px;
+}
+
+div.service-container h4 {
+  font-size: 32px;
+}
+
+div.service-selection h5 {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+div.service-selection p {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+div.about-container {
+  position: relative;
+  margin-top: 180px;
+  height: 645px;
+}
+
+div.about-container img.about-bg {
+  position: relative;
+  width: 1920px;
+  height: auto;
+  left: -307px;
+}
+
+div.about-items {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 1122px;
+  height: 509px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -564px;
+}
+
+div.img-item {
+  position: relative;
+  top: -200px;
+  background-color: #ffffff8e;
+  border-radius: 12px;
+  width: 501px;
+  height: 676px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+div.img-item img {
+  width: 480px;
+  height: auto;
+}
+
+div.about-us-item {
+  width: 478px;
+  height: 316.12px;
+  font-family: "Poppins", sans-serif;
+}
+
+div.about-us-item h4.about-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+div.about-us-item h5 {
+  font-size: 24px;
+  font-weight: bold;
+  width: 350px;
+}
+
+div.about-us-item p {
+  font-size: 18px;
+  width: 478px;
+}
+
+div.about-button {
+  width: 142px;
+  height: 38px;
+  border-radius: 33px;
+  background-color: #2f2105;
+}
+
+div.about-button p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #f4ae26;
+  padding: 10px 24px;
+}
+
+/* Production List */
+div.product-container {
+  position: relative;
+  margin-top: 120px;
+}
+
+div.product-container h4.product-list-title {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+div.product-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 8.93%;
+  column-gap: 8.93%;
+  position: relative;
+  margin-top: 30px;
+}
+
+/* Customer Reviews */
+div.customer-container {
+  position: relative;
+  margin-top: 200px;
+  width: 1920px;
+  padding-bottom: 120px;
+}
+
+div.customer-container img.bg-image {
+  position: relative;
+  left: -307px;
+  width: 1200px;
+}
+
+div.customer-container > div {
+  position: absolute;
+  top: 60px;
+  width: 1600px;
+  height: 312px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.customer-container div.customer-description {
+  width: 413px;
+  height: 145px;
+}
+
+div.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.testimonial-container div.testimonial-item {
+  position: relative;
+  width: 257.09px;
+  height: 280px;
+}
+
+div.testimonial-item img {
+  width: 213.92px;
+  height: 280px;
+}
+
+div.testimonial-item div.outer {
+  position: relative;
+  left: 50px;
+  bottom: 100px;
+  width: 230px;
+  height: 91px;
+  /* background-color: #ffd39079; */
+}
+
+div.outer div.testimonial {
+  background-color: #ffcb7c;
+  width: 226.5px;
+  height: 86.23px;
+}
+
+/* Subscribe email section */
+
+div.subscription-container {
+  position: relative;
+  padding-bottom: 120px;
+  width: 100%;
+  height: auto;
+}
+
+div.subscription-container img {
+  width: 100%;
+}
+
+div.subscription-content {
+  position: absolute;
+  margin: auto;
+  width: 624px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.subscription-container h4 {
+  position: relative;
+  top: 0;
+  color: #ffffff;
+  font-size: 32px;
+}
+
+div.email {
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 486px;
+  height: 54px;
+  background-color: #ffffff;
+  border-radius: 42px;
+}
+
+div.email p.email-text {
+  margin: 15px 0 0 20px;
+  font-size: 16px;
+  color: #7e7d7a;
+  height: 18px;
+}
+
+div.order-button {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  background-color: #2f2105;
+  border-radius: 33px;
+  width: 138px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.order-button p {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 11.5px 0 11.5px 0;
+}
+
+div.contact-container {
+  position: relative;
+  top: 7em;
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  font-family: "Inter";
+}
+
+.montserrat {
+  font-family: "Montserrat" sans-serif;
+}
+
+h3.montserrat img {
+  width: 2.35rem;
+  margin-right: 1.5rem;
+}
+
+div.alt-contact-container {
+  position: relative;
+  background-color: #f9fafb;
+  border-radius: 21.6px;
+  padding: 45px 40px;
+  margin-right: 4rem;
+}
+
+div.alt-contact-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+div.alt-contact-container p {
+  font-size: 1.3rem;
+  width: 24rem;
+}
+
+div.diff-contact-container {
+  margin-top: 3rem;
+}
+
+div.diff-contact-container > div {
+  margin-bottom: 2.75rem;
+}
+
+div.diff-contact-container h3 {
+  font-weight: bold;
+}
+
+div.diff-contact-container p {
+  margin-left: 3.85rem;
+  font-size: 1.3rem;
+}
+
+div.diff-contact-container p.blue {
+  color: #1472b2;
+}
+
+div.email-container {
+  position: relative;
+  width: 45em;
+  background-color: #ffffff;
+  margin: 5.5rem 0;
+  margin-right: 2.5rem;
+}
+
+div.email-container h1 {
+  width: 36rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+div.contact-info-container div {
+  position: relative;
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.customer-name,
+div.customer-email,
+div.customer-phone,
+div.customer-message {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.input-size {
+  width: 15em;
+  height: 2em;
+}
+
+.input-bg-color {
+  background-color: #f6f6f6;
+}
+
+.no-border {
+  border: none;
+}
+
+div.customer-message textarea {
+  height: 12em;
+}
+
+div.message-button button {
+  width: 20em;
+  height: 3em;
+  background-color: #1472b2;
+}

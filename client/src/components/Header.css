@@ -1,0 +1,12 @@
+/* custom-navbar.css */
+.custom-navbar .nav-link {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+}
+
+.rounded-search {
+  border-radius: 250px;
+}
